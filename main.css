@@ -5,10 +5,24 @@
     src: url(DancingScript-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: vtks;
+    src: url(vtks-hunt.regular.ttf);
+}
+
+@font-face {
+    font-family: dojo;
+    src: url(vins-dojo.regular.ttf);
+}
+
 body {
     background-color: gray;
     padding-right: 20% 20%;
 
+}
+
+a {
+    color: white;
 }
 
 .topBox {
@@ -25,11 +39,14 @@ body {
 }
 
 .navBar {
+    margin-left: 50%;
+    margin-top: 25%;
+    font-family: dojo;
     font-size: large;
     position: absolute;
-    padding-left: 500px;
     color: white;
 }
+
 
 .header {
     position: absolute;
@@ -46,10 +63,6 @@ body {
 h2 {
     text-align: center;
 }
-
-
-
-
 
 .bottomBox {
     display: grid;
@@ -72,3 +85,53 @@ h2 {
 .studio, .pricing {
     margin-top: 20px;
 }
+
+.prestine:hover, .price:hover {
+    border: 2px solid red;
+}
+
+
+/* Mailing List */
+
+fieldset {
+    color: white;
+    background: linear-gradient(90deg,black,black,black,grey);
+    height: 500px;
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 20%;
+    border-style: hidden;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first_name {
+    margin-top: 5px;
+}
+
+#last_name {
+    margin-bottom: 5px;
+}
+
+#email {
+    margin-top: 5px;
+}
+
+
+
+
+
+
+/* About Us */
+
+
+
+
+
+
+
+/* Pictures */
