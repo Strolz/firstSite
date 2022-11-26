@@ -1,0 +1,74 @@
+
+/* home.html */
+@font-face {
+    font-family: dancing;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: gray;
+    padding-right: 20% 20%;
+
+}
+
+.topBox {
+    display: flex;
+    height: 500px;
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 20%;
+    border-style: hidden;
+    border-color: black;
+    color: white;
+    background-color: black;
+    background: linear-gradient(90deg,black,black,black,grey);
+}
+
+.navBar {
+    font-size: large;
+    position: absolute;
+    padding-left: 500px;
+    color: white;
+}
+
+.header {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 20%;
+    padding-left: 20px;
+    font-family: dancing;
+}
+
+.bio {
+    margin-top: 15%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+
+
+.bottomBox {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 500px;
+    width: 60%;
+    margin-left: 20%;
+    border-style: hidden;
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+.price, .prestine {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.studio, .pricing {
+    margin-top: 20px;
+}
