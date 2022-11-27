@@ -25,6 +25,10 @@ a {
     color: white;
 }
 
+a:hover {
+    border: 2px solid grey;
+}
+
 .topBox {
     display: flex;
     height: 500px;
@@ -39,6 +43,7 @@ a {
 }
 
 .navBar {
+    border-style: dotted;
     margin-left: 50%;
     margin-top: 25%;
     font-family: dojo;
@@ -96,41 +101,60 @@ h2 {
 fieldset {
     color: white;
     background: linear-gradient(90deg,black,black,black,grey);
-    height: 500px;
+    height: 484px;
     width: 60%;
     margin-top: 40px;
     margin-left: 20%;
     border-style: hidden;
+    text-align: left;
 }
 
 .fields {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5%;
 }
 
 #first_name {
     margin-top: 5px;
 }
 
-#last_name {
+#last_name, {
     margin-bottom: 5px;
 }
 
-#email {
-    margin-top: 5px;
+.lastName {
+    margin-right: 103px;
 }
 
-
+#email {
+    margin-top: 2px;
+}
 
 
 
 
 /* About Us */
 
+.more {
+    font-family: dancing;
+    margin-left: 50px;
+}
 
+.quote {
+    font-size: 30px;
+    width: 50%;
+    margin-top: 15%;
+}
 
+.apple {
+    width: 100%;
+}
 
+.aBlack {
+    color: black;
+}
 
 
 
