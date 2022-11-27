@@ -1,5 +1,5 @@
 
-/* home.html */
+/* home.html / Global */
 @font-face {
     font-family: dancing;
     src: url(DancingScript-VariableFont_wght.ttf);
@@ -134,7 +134,6 @@ fieldset {
 
 
 
-
 /* About Us */
 
 .more {
@@ -149,11 +148,26 @@ fieldset {
 }
 
 .apple {
-    width: 100%;
+    height: 200%;
+    width: 125%;
 }
+
+.list {
+    font-size: 20px;
+    padding-left: 25%;
+}
+
+.stream {
+    width: max-content;
+    font-size: larger;
+    padding-left: 3%;
+}
+
+
 
 .aBlack {
     color: black;
+    margin-left: 25px;
 }
 
 
