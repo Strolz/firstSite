@@ -25,7 +25,7 @@ a {
     color: white;
 }
 
-a:hover {
+.navBar:hover {
     border: 2px solid grey;
 }
 
@@ -34,7 +34,7 @@ a:hover {
     height: 500px;
     width: 60%;
     margin-top: 40px;
-    margin-left: 20%;
+    margin-left: 15%;
     border-style: hidden;
     border-color: black;
     color: white;
@@ -104,7 +104,7 @@ fieldset {
     height: 484px;
     width: 60%;
     margin-top: 40px;
-    margin-left: 20%;
+    margin-left: 15%;
     border-style: hidden;
     text-align: left;
 }
@@ -120,7 +120,7 @@ fieldset {
     margin-top: 5px;
 }
 
-#last_name, {
+#last_name {
     margin-bottom: 5px;
 }
 
@@ -132,6 +132,10 @@ fieldset {
     margin-top: 2px;
 }
 
+.eLogo {
+    width: 200%;
+    height: 200%;
+}
 
 
 /* About Us */
@@ -173,3 +177,84 @@ fieldset {
 
 
 /* Pictures */
+
+.topBox4 {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 15%;
+    border-style: hidden;
+    border-color: black;
+    color: white;
+    background-color: black;
+    background: linear-gradient(90deg,black,black,black,grey);
+}
+
+.bottomBox4 {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 60%;
+    margin-left: 20%;
+    border-style: hidden;
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+.hot {
+    position: absolute;
+    font-family: dancing;
+    margin: 2% 25%;
+}
+
+.pics {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.pics2 {
+    display: flex;
+    align-items: center;
+}
+
+.pic1 {
+    height: 300px;
+    width: 300px;
+
+}
+
+.pic2 {
+    height: 300px;
+    width: 300px;
+
+}
+
+.pic3 {
+    height: 300px;
+    width: 300px;
+
+
+}
+
+.pic4 {
+    height: 300px;
+    width: 300px;
+
+}
+
+.pic5 {
+    height: 300px;
+    width: 300px;
+
+}
+
+.pic6 {
+    height: 300px;
+    width: 300px;
+
+}
